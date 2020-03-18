@@ -14,4 +14,10 @@ public class Controlller {
         return "<h1>Hello</h1>";
     }
 
+    @GetMapping("/secured")
+    public String secured() {
+        log.info("Authenticated hello");
+        return "<h1>Hello</h1>";
+    }
+
 }

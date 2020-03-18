@@ -1,4 +1,4 @@
-package com.agisoft.graphql;
+package com.agisoft.graphql.repositories;
 
 import com.agisoft.graphql.types.Droid;
 import com.agisoft.graphql.types.Episode;

@@ -1,6 +1,6 @@
 package com.agisoft.graphql.resolvers;
 
-import com.agisoft.graphql.CharacterRepository;
+import com.agisoft.graphql.repositories.CharacterRepository;
 import com.agisoft.graphql.types.Droid;
 import com.agisoft.graphql.types.Episode;
 import com.agisoft.graphql.types.Human;
