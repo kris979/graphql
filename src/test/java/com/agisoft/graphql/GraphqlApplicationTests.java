@@ -23,7 +23,7 @@ class GraphqlApplicationTests {
 //        String expectedResponse = "{query: \"{hero{name}}\", variables: null}";
 //
 //        mockMvc.perform(MockMvcRequestBuilders.post("/graphql")
-//                                              .content("{\"query\":\"{ hero { name } }\"}")
+//                                              .content("{\"query\":\"{ person }\"}")
 //                                              .contentType(MediaType.APPLICATION_JSON)
 //                                              .accept(MediaType.APPLICATION_JSON))
 //               .andExpect(status().isOk())
