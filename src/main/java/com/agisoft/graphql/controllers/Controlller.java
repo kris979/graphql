@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class Controlller {
 
+
     @GetMapping("/hello")
     public String hello() {
         log.info("Returning hello");
